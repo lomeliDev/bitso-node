@@ -1,0 +1,52 @@
+{
+  "name": "@lomelidev/bitso-api",
+  "version": "1.0.0",
+  "description": "Node.js Bitso Client",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "mocha --recursive --check-leaks --full-trace --reporter spec \"src/**/*.test.js\"",
+    "test:watch": "npm run test -- --watch",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lomeliDev/bitso-node.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "bitso",
+    "xrp",
+    "ethereum",
+    "mxn",
+    "lomeli",
+    "Lomelí Technology",
+    "Lomeli Technology",
+    "miguel lomeli",
+    "toopago"
+  ],
+  "author": "Miguel Lomeli <miguel@lomeli.io> (https://lomeli.io/)",
+  "contributors": [
+    {
+      "name": "Miguel Lomeli",
+      "email": "miguel@lomeli.io"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lomeliDev/bitso-node/issues"
+  },
+  "homepage": "https://github.com/lomeliDev/bitso-node#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^4.1.0"
+  },
+  "dependencies": {
+    "install": "^0.10.2",
+    "node-fetch": "^1.7.3",
+    "npm": "^5.6.0"
+  }
+}
