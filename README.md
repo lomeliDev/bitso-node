@@ -2,12 +2,12 @@
 
 [![N|Solid](https://lomeli.io/assets/img/logo.png)](https://lomeli.io)
 
-`npm install @lomelidev/bitso-node`
+`npm install @lomelidev/bitso-api`
 
 A Node.js API Wrapper for the [Bitso REST API](https://bitso.com/api_info). Please refer to [their documentation](https://bitso.com/api_info) for the responses and parameters.
 
 ```javascript
-var BitsoNode = require("bitso-node");
+var BitsoNode = require("@lomelidev/bitso-api");
 // Key and Secret are only necessary if you use the Private REST API
 var bitsoClient = new BitsoNode({
   key: "1234",
@@ -22,7 +22,7 @@ bitsoClient.public.availableBooks().then(books => {
 ##How to Use
 
 ```javascript
-const BitsoNode = require("bitso-node");
+const BitsoNode = require("@lomelidev/bitso-api");
 
 const client = new BitsoNode({
   key: "KEY",
@@ -50,7 +50,7 @@ information you need to create the API client with the `authorizeMovements` para
 (REMEMBER TO USE AT YOUR OWN RISK!)
 
 ```javascript
-const BitsoNode = require("bitso-node");
+const BitsoNode = require("@lomelidev/bitso-api");
 
 const client = new BitsoNode({
   key: "KEY",

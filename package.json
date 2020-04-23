@@ -45,6 +45,7 @@
     "mocha": "^4.1.0"
   },
   "dependencies": {
+    "@lomelidev/bitso-api": "^1.0.0",
     "install": "^0.13.0",
     "node-fetch": "^1.7.3",
     "npm": "^6.13.4"
